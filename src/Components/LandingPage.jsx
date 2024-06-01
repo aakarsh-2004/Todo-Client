@@ -5,7 +5,7 @@ const LandingPage = () => {
         <>
             <div className='LandingPage w-full h-[80vh] flex'>
                 <div className="image flex-1 justify-center items-center w-[100%] pl-[4rem]">
-                    <img className='w-[80%]' src="./src/Assets/home-vector.jpg" alt="logo" />
+                    <img className='w-[80%]' src="https://res.cloudinary.com/dwbr9hz8y/image/upload/v1717240092/i0wxo4i2065yui79klmo.jpg" alt="logo" />
                 </div>
                 <div className="content flex flex-col flex-1 justify-center w-[100%] gap-[2rem]">
                     <h1 className='text-5xl max-w-[85%] font-bold'>A Task Manager/Optimizer which boosts your productivity!</h1>
