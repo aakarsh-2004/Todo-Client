@@ -17,7 +17,6 @@ export default function Example() {
 
     useEffect(() => {
         const token = localStorage.getItem('token');
-        console.log("inga", token);
         if (token) {
             setIsLoggedIn(true);
         }

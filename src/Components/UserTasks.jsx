@@ -8,7 +8,6 @@ const UserTasks = () => {
     useEffect(() => {
         async function getUserTasks() {
             const token = localStorage.getItem('token');
-            console.log("token -> ", token);
             try {
                 const response = await fetch('https://todo-api-b6p3.onrender.com/api/task/getusertasks', {
                     method: "GET",
